@@ -1,0 +1,16 @@
+R^2 score = 1 - (SS_res/SS_tot)
+
+R2 is not always the square of anything, so it can have a negative value without violating any rules of math. R2 is negative only when the chosen model does not follow the trend of the data.
+
+SS_res = sum of residual squares or sum of (y_pred_i - y_i)^2   *
+SS_tot = sum of (y_i - y_mean)^2
+
+if the model is fitting, then SS_res is always less than SS_tot.
+so model with R2 closer to 1 fits better.
+
+in this case, random forest regression model produced the highest R2 score and hence is the best model that fits the given Data.csv dataset.
+
+
+* y_pred_i => predicted dependant variable from the model on the feature X_i
+  y_i => observed dependant variable value
+  y_mean => mean of all y_i 's.
