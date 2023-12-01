@@ -1,0 +1,7 @@
+in this case, decision tree classification model produced the highest accuracy score and hence is the best model that fits the given Data.csv dataset.
+
+accuracy score  =  (no. of True Negatives + no. of True Positives) / Total no. observations  *
+
+* : True Negative => observed and predicted negative result
+    True Positive => observed and predicted positive result
+    False Negative => observed positive and predicted negative result
